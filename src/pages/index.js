@@ -12,7 +12,7 @@ export default function Home({ products }) {
       <Header />
       <main className="max-w-screen-2xl mx-auto ">
         <Banner />
-        <ProductFeed products={products} />
+        <ProductFeed key={9420} products={products} />
       </main>
     </div>
   );
